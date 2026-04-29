@@ -1,14 +1,3 @@
-/*
-|-------------------------------------------------------------------------------
-| Development config                      https://maizzle.com/docs/environments
-|-------------------------------------------------------------------------------
-|
-| This is the base configuration that Maizzle will use when you run commands
-| like `npm run build` or `npm run dev`. Additional config files will
-| inherit these settings, and can override them when necessary.
-|
-*/
-
 /** @type {import('@maizzle/framework').Config} */
 export default {
   build: {
@@ -16,6 +5,26 @@ export default {
     static: {
       source: ['images/**/*.*'],
       destination: 'images',
+    },
+  },
+  tailwind: {
+    config: {
+      important: true,
+      theme: {
+        extend: {
+          colors: {
+            'trix-yellow': '#F2D400',
+            'trix-gold': '#D4AF37',
+            'trix-dark': '#1A1A1A',
+            'trix-light': '#FFFDE7',
+            'trix-cream': '#FDFCF0',
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+          },
+        },
+      },
     },
   },
 }

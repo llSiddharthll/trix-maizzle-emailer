@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings xmlns:o="urn:schemas-microsoft-com:office:office">
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <style>
+    td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
+    .mso-break-all {word-break: break-all;}
+  </style>
+  <![endif]-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" media="screen">
+  <style>.m-0 {
+    margin: 0px
+}
+.mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem
+}
+.mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+.my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+.mb-12 {
+    margin-bottom: 3rem
+}
+.mb-2 {
+    margin-bottom: 0.5rem
+}
+.mb-4 {
+    margin-bottom: 1rem
+}
+.mb-6 {
+    margin-bottom: 1.5rem
+}
+.mb-8 {
+    margin-bottom: 2rem
+}
+.ml-4 {
+    margin-left: 1rem
+}
+.mt-2 {
+    margin-top: 0.5rem
+}
+.mt-auto {
+    margin-top: auto
+}
+.block {
+    display: block
+}
+.inline-block {
+    display: inline-block
+}
+.flex {
+    display: flex
+}
+.table {
+    display: table
+}
+.grid {
+    display: grid
+}
+.hidden {
+    display: none
+}
+.h-auto {
+    height: auto
+}
+.h-full {
+    height: 100%
+}
+.w-1-2 {
+    width: 50%
+}
+.w-552px {
+    width: 552px
+}
+.w-full {
+    width: 100%
+}
+.max-w-400px {
+    max-width: 400px
+}
+.max-w-600px {
+    max-width: 600px
+}
+.max-w-full {
+    max-width: 100%
+}
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+.items-center {
+    align-items: center
+}
+.justify-between {
+    justify-content: space-between
+}
+.gap-6 {
+    gap: 1.5rem
+}
+.gap-8 {
+    gap: 2rem
+}
+.overflow-hidden {
+    overflow: hidden
+}
+.rounded {
+    border-radius: 0.25rem
+}
+.rounded-lg {
+    border-radius: 0.5rem
+}
+.rounded-md {
+    border-radius: 0.375rem
+}
+.rounded-xl {
+    border-radius: 0.75rem
+}
+.border {
+    border-width: 1px
+}
+.border-y {
+    border-top-width: 1px;
+    border-bottom-width: 1px
+}
+.border-b {
+    border-bottom-width: 1px
+}
+.border-t {
+    border-top-width: 1px
+}
+.border-trixLight {
+    border-color: rgb(255, 253, 231)
+}
+.border-trixYellow-20 {
+    border-color: rgba(242, 212, 0, 0.2)
+}
+.bg-gray-100 {
+    background-color: rgb(243, 244, 246)
+}
+.bg-slate-50 {
+    background-color: rgb(248, 250, 252)
+}
+.bg-slate-950 {
+    background-color: rgb(2, 6, 23)
+}
+.bg-trixCream {
+    background-color: rgb(253, 252, 240)
+}
+.bg-trixDark {
+    background-color: rgb(26, 26, 26)
+}
+.bg-trixYellow {
+    background-color: rgb(242, 212, 0)
+}
+.bg-trixYellow-10 {
+    background-color: rgba(242, 212, 0, 0.1)
+}
+.bg-white {
+    background-color: rgb(255, 255, 255)
+}
+.p-0 {
+    padding: 0px
+}
+.p-6 {
+    padding: 1.5rem
+}
+.px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem
+}
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+}
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+.px-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem
+}
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem
+}
+.py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem
+}
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem
+}
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem
+}
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+.pt-4 {
+    padding-top: 1rem
+}
+.text-left {
+    text-align: left
+}
+.text-center {
+    text-align: center
+}
+.text-right {
+    text-align: right
+}
+.font-sans {
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif
+}
+.font-serif {
+    font-family: Playfair Display, Georgia, serif
+}
+.text-2xl-8 {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+.text-10px {
+    font-size: 10px
+}
+.text-11px {
+    font-size: 11px
+}
+.text-12px {
+    font-size: 12px
+}
+.text-13px {
+    font-size: 13px
+}
+.text-14px {
+    font-size: 14px
+}
+.text-16px {
+    font-size: 16px
+}
+.text-18px {
+    font-size: 18px
+}
+.text-24px {
+    font-size: 24px
+}
+.text-32px {
+    font-size: 32px
+}
+.text-base-6 {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+.text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem
+}
+.text-xs-5 {
+    font-size: 0.75rem;
+    line-height: 1.25rem
+}
+.font-black {
+    font-weight: 900
+}
+.font-bold {
+    font-weight: 700
+}
+.font-semibold {
+    font-weight: 600
+}
+.uppercase {
+    text-transform: uppercase
+}
+.italic {
+    font-style: italic
+}
+.leading-relaxed {
+    line-height: 1.625
+}
+.leading-tight {
+    line-height: 1.25
+}
+.tracking-2px {
+    letter-spacing: 2px
+}
+.tracking-3px {
+    letter-spacing: 3px
+}
+.tracking-4px {
+    letter-spacing: 4px
+}
+.tracking-5px {
+    letter-spacing: 5px
+}
+.tracking-wider {
+    letter-spacing: 0.05em
+}
+.tracking-widest {
+    letter-spacing: 0.1em
+}
+.text-gray-300 {
+    color: rgb(209, 213, 219)
+}
+.text-gray-400 {
+    color: rgb(156, 163, 175)
+}
+.text-gray-500 {
+    color: rgb(107, 114, 128)
+}
+.text-gray-600 {
+    color: rgb(75, 85, 99)
+}
+.text-slate-500 {
+    color: rgb(100, 116, 139)
+}
+.text-slate-600 {
+    color: rgb(71, 85, 105)
+}
+.text-slate-800 {
+    color: rgb(30, 41, 59)
+}
+.text-slate-900 {
+    color: rgb(15, 23, 42)
+}
+.text-trixDark {
+    color: rgb(26, 26, 26)
+}
+.text-trixGold {
+    color: rgb(212, 175, 55)
+}
+.text-trixYellow {
+    color: rgb(242, 212, 0)
+}
+.text-white {
+    color: rgb(255, 255, 255)
+}
+.underline {
+    text-decoration-line: underline
+}
+.no-underline {
+    text-decoration-line: none
+}
+.opacity-90 {
+    opacity: 0.9
+}
+.shadow {
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1)
+}
+.shadow-2xl {
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25)
+}
+.shadow-lg {
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)
+}
+.shadow-sm {
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 2px 0 rgba(0, 0, 0, 0.05)
+}
+.-webkit-font-smoothing-antialiased {
+    -webkit-font-smoothing: antialiased
+}
+.border-1px_solid_themecolors_slate_200 {
+    border: 1px solid #e2e8f0
+}
+.word-break-break-word {
+    word-break: break-word
+}
+    img {
+    max-width: 100%;
+    vertical-align: middle
+}
+    .hover-bg-slate-800:hover {
+    background-color: rgb(30, 41, 59)
+}
+    .hover-bg-slate-800:hover:bg-slate-800:hover {
+    background-color: rgb(30, 41, 59)
+}
+    @media (min-width: 640px) {
+    .sm-inline-flex {
+        display: inline-flex
+    }
+    .sm-grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+    .sm-p-6 {
+        padding: 1.5rem
+    }
+    .sm-px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
+    }
+    .sm-px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+    .sm-px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+    }
+    .sm-text-left {
+        text-align: left
+    }
+    .sm-text-40px {
+        font-size: 40px
+    }
+}
+  </style>
+  
+</head>
+<body class="m-0 p-0 w-full word-break-break-word -webkit-font-smoothing-antialiased bg-slate-50">
+  
+    <div class="hidden">
+      Transactional email template
+      &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; 
+    </div>
+  <div role="article" aria-roledescription="email" aria-label="" lang="en">
+    
+  <div class="bg-slate-50 sm-px-4 font-inter">
+    <table align="center" class="m-0 mx-auto" cellpadding="0" cellspacing="0" role="none">
+      <tr>
+        <td class="w-552px max-w-full">
+          
+
+
+  <div role="separator" style="line-height: 24px">&zwj;</div>
+
+
+          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
+            <tr>
+              <td class="py-6 px-9 sm-p-6 bg-white border-1px_solid_themecolors_slate_200 rounded-lg">
+                <a href="https://maizzle.com">
+                  <img src="logo.png" src-production="images/logo.png" width="70" alt="Maizzle">
+                </a>
+
+                
+
+
+  <div role="separator" style="line-height: 24px">&zwj;</div>
+
+
+                <h1 class="m-0 mb-6 text-2xl-8 text-slate-900 font-semibold">
+                  Hello there!
+                </h1>
+
+                <p class="m-0 mb-6 text-base-6 text-slate-600">
+                  We're happy to have you on board! Please verify your email address in order to activate your account:
+                </p>
+
+                
+
+<div>
+  <a href="https://maizzle.com" style="display: inline-block; text-decoration: none; padding: 16px 24px; font-size: 16px; line-height: 1; border-radius: 4px; background-color: #4338ca; color: #fffffe" class="bg-slate-950 hover-bg-slate-800">
+    <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden="">&emsp;</i><![endif]-->
+    <span style="mso-text-raise: 16px">Verify email</span>
+    <!--[if mso]><i class="mso-font-width-150pc" hidden="">&emsp;&#8203;</i><![endif]-->
+  </a>
+</div>
+
+
+                
+
+
+  <div role="separator" style="line-height: 24px">&zwj;</div>
+
+
+                <p class="m-0 text-base-6 text-slate-600">
+                  Thanks,
+                  <br>
+                  <span class="font-semibold">Maizzle</span>
+                </p>
+
+                
+
+<div role="separator" style="height: 1px; line-height: 1px; background-color: #cbd5e1; margin-top: 24px; margin-bottom: 24px">&zwj;</div>
+
+
+                <p class="m-0 text-xs-5 text-slate-600 mso-break-all">
+                  If you're having trouble clicking the "Verify email" button, copy and paste the following URL into your web browser:
+                  <a href="https://maizzle.com/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0" class="text-slate-800 underline">https://maizzle.com/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0</a>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
+            <tr>
+              <td class="py-6 px-9 sm-px-6">
+                <p class="m-0 text-xs text-slate-500">
+                  &copy; 2026 Maizzle. All rights reserved.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  </div>
+</body>
+</html>
+

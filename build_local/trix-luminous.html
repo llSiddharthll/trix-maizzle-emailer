@@ -1,0 +1,151 @@
+
+<extends src="layouts/main.html">
+  <block name="template">
+    <div class="bg-gray-100 py-10 font-sans text-trixDark">
+      <table class="mx-auto w-full max-w-600px bg-white shadow-2xl rounded-xl overflow-hidden" cellpadding="0" cellspacing="0" role="presentation">
+        <!-- Header -->
+        <tr>
+          <td class="px-6 py-8 sm-px-10 border-b border-trixLight">
+            <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
+              <tr>
+                <td class="w-1-2">
+                  <img src="images/trix-logo.png" width="100" alt="TRIX" class="block">
+                </td>
+                <td class="w-1-2 text-right">
+                  <div class="hidden sm-inline-flex items-center gap-6">
+                    <a href="#" class="text-10px uppercase font-bold text-gray-400 no-underline tracking-widest">Shop</a>
+                    <a href="#" class="text-10px uppercase font-bold text-gray-400 no-underline tracking-widest">Inspiration</a>
+                  </div>
+                  <a href="#" class="text-10px uppercase font-bold text-trixYellow no-underline tracking-widest ml-4">Sign In</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Hero -->
+        <tr>
+          <td class="bg-trixDark text-center">
+            <img src="images/orion-hero.png" width="600" alt="Orion Pendant" class="w-full h-auto opacity-90">
+            <div class="py-4">
+              <p class="text-10px uppercase tracking-4px text-gray-400 font-bold m-0">ORION PENDANT</p>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Value Proposition -->
+        <tr>
+          <td class="px-6 py-16 sm-px-10 text-center bg-white">
+            <h1 class="text-32px sm-text-40px font-serif leading-tight mb-4 text-trixDark m-0">
+              TRIX: Illuminate Your World.
+            </h1>
+            <p class="text-16px text-gray-500 mb-8 max-w-400px mx-auto leading-relaxed italic">
+              Discover The Art of Light. <br>Modern. Airy. Luminous.
+            </p>
+            <a href="#" class="inline-block bg-trixYellow text-trixDark px-10 py-4 rounded-md font-bold text-12px uppercase tracking-2px no-underline shadow-lg">
+              Explore The Collection
+            </a>
+          </td>
+        </tr>
+
+        <!-- Featured Innovations Title -->
+        <tr>
+          <td class="bg-trixCream py-6 border-y border-trixLight text-center">
+            <p class="text-12px uppercase tracking-4px font-black text-trixGold m-0">FEATURED INNOVATIONS</p>
+          </td>
+        </tr>
+
+        <!-- Product Grid -->
+        <tr>
+          <td class="px-6 py-12 sm-px-10 bg-white">
+            <div class="grid grid-cols-1 sm-grid-cols-2 gap-8">
+              <!-- Card 1 -->
+              <div class="border border-trixLight rounded-lg p-6 bg-white shadow-sm h-full">
+                <img src="images/aurora-sconce.png" width="200" class="mx-auto mb-6 rounded" alt>
+                <h2 class="text-18px font-serif mb-2 text-trixDark m-0">AURORA SCONCE</h2>
+                <p class="text-13px text-gray-500 mb-6 leading-relaxed m-0">
+                  Luminous form meet architectural function. Minimalist design for modern spaces.
+                </p>
+                <div class="flex justify-between items-center mt-auto pt-4">
+                  <span class="text-16px font-bold text-trixDark">$1,295</span>
+                  <a href="#" class="bg-trixYellow-10 border border-trixYellow-20 text-trixYellow px-4 py-2 rounded text-11px font-bold uppercase tracking-wider no-underline">Shop Now</a>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="border border-trixLight rounded-lg p-6 bg-white shadow-sm h-full">
+                <img src="images/luna.png" width="200" class="mx-auto mb-6 rounded" alt>
+                <h2 class="text-18px font-serif mb-2 text-trixDark m-0">ECLIPSE FLOOR LAMP</h2>
+                <p class="text-13px text-gray-500 mb-6 leading-relaxed m-0">
+                  A sleek masterpiece of ambient warmth. The perfect balance of light and shadow.
+                </p>
+                <div class="flex justify-between items-center mt-auto pt-4">
+                  <span class="text-16px font-bold text-trixDark">$950</span>
+                  <a href="#" class="bg-trixYellow-10 border border-trixYellow-20 text-trixYellow px-4 py-2 rounded text-11px font-bold uppercase tracking-wider no-underline">Shop Now</a>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Showcase -->
+        <tr>
+          <td class="px-6 py-16 sm-px-10 bg-trixCream">
+            <div class="grid grid-cols-1 sm-grid-cols-2 gap-8 items-center">
+              <div>
+                <img src="images/bedroom.png" width="260" class="rounded-xl shadow-lg mx-auto" alt>
+              </div>
+              <div class="text-center sm-text-left">
+                <h2 class="text-24px font-serif leading-tight mb-4 text-trixDark m-0">CRAFTED FOR ELEGANCE</h2>
+                <p class="text-14px text-gray-600 leading-relaxed mb-8 m-0">
+                  Design thinking at its finest. Every curve is intentional, every glow is calibrated to create the perfect sanctuary in your home.
+                </p>
+                <a href="#" class="inline-block bg-trixDark text-white px-8 py-3 rounded-md font-bold text-11px uppercase tracking-2px no-underline">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Brand Story -->
+        <tr>
+          <td class="px-6 py-16 sm-px-10 bg-white border-b border-trixLight">
+            <div class="grid grid-cols-1 sm-grid-cols-2 gap-8">
+              <div>
+                <p class="text-12px uppercase font-bold tracking-3px text-trixYellow mb-4 m-0">OUR STORY</p>
+                <p class="text-13px text-gray-500 leading-relaxed m-0">
+                  TRIX was born from a vision to harmonize technology and art. We don't just sell lights; we craft atmospheres that inspire, soothe, and empower.
+                </p>
+              </div>
+              <div>
+                <p class="text-12px uppercase font-bold tracking-3px text-trixYellow mb-4 m-0">THE TRIX DIFFERENCE</p>
+                <p class="text-13px text-gray-500 leading-relaxed m-0">
+                  Precision engineering meets artisanal craftsmanship. Each TRIX fixture is a testament to our commitment to world-class quality.
+                </p>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td class="py-12 bg-white text-center">
+            <p class="text-10px uppercase font-black text-gray-300 tracking-5px mb-8 m-0">SOCIAL MEDIA</p>
+            <div class="mb-12">
+              <a href="#" class="text-trixDark no-underline text-14px mx-2">Facebook</a>
+              <a href="#" class="text-trixDark no-underline text-14px mx-2">Instagram</a>
+              <a href="#" class="text-trixDark no-underline text-14px mx-2">LinkedIn</a>
+            </div>
+            <hr class="border-t border-trixLight my-8 mx-10">
+            <p class="text-10px text-gray-400 m-0">
+              www.trixlighting.com | Privacy Policy | Unsubscribe
+            </p>
+            <p class="text-10px text-gray-500 mt-2 m-0">
+              © 2024 TRIX Lighting. All Rights Reserved.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </block>
+</extends>
