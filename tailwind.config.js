@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: { max: '600px' },
+      },
       colors: {
         trixYellow: '#F2D400',
         trixGold: '#D4AF37',
