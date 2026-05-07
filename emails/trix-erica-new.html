@@ -5,33 +5,42 @@ bodyClass: bg-[#F9F9F9]
 ---
 
 <x-main class="bg-[#F9F9F9] py-2 font-sans text-gray-800"
-    style="font-family: &quot;Inter&quot;, Helvetica, Arial, sans-serif">
+    style="font-family: 'Inter', Helvetica, Arial, sans-serif">
+    
+    <!-- HEADER -->
     <div class="px-4">
-        <div class="flex items-center justify-between py-4">
-            <img src="https://res.cloudinary.com/dkqo3uz5o/image/upload/v1778177984/trix_logo.png" width="100"
-                alt="TRIX" />
-            <p class="text-[12px] text-right tracking-[0.2em] text-gray-400 uppercase font-bold m-0">
-                Focus Lighting &amp;<br />
-                Fixtures Ltd.
-            </p>
-        </div>
+        <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+                <td class="py-4">
+                    <img src="https://res.cloudinary.com/dkqo3uz5o/image/upload/v1778177984/trix_logo.png" width="100" alt="TRIX" />
+                </td>
+                <td class="py-4 text-right">
+                    <p class="text-[12px] tracking-[0.2em] text-gray-400 uppercase font-bold m-0">
+                        Focus Lighting &amp;<br />
+                        Fixtures Ltd.
+                    </p>
+                </td>
+            </tr>
+        </table>
     </div>
 
-    <div class="">
+    <!-- HERO IMAGE -->
+    <div class="w-full">
         <img src="https://res.cloudinary.com/dkqo3uz5o/image/upload/v1778091360/erica_hero.png" width="640"
             alt="ERICA Architectural Lighting" class="w-full h-auto block" />
     </div>
 
-    <div class="px-4 text-center py-4">
+    <!-- INTRODUCTION -->
+    <div class="px-4 text-center py-8">
         <p class="text-[12px] font-bold text-[#D4AF37] tracking-[2px] uppercase mb-3 m-0">
             Recessed Adjustable Downlight
         </p>
         <h1 class="text-[28px] sm:text-[32px] font-serif text-gray-900 leading-tight mb-4 m-0 font-normal tracking-[2px] uppercase"
-            style="font-family: &quot;Playfair Display&quot;, Georgia, serif">
+            style="font-family: 'Playfair Display', Georgia, serif">
             ERICA
         </h1>
         <p class="text-[16px] font-serif text-gray-900 italic m-0 mb-4"
-            style="font-family: &quot;Playfair Display&quot;, Georgia, serif">
+            style="font-family: 'Playfair Display', Georgia, serif">
             Control the Beam. Define the Ambience.
         </p>
         <p class="text-[14px] text-gray-600 leading-relaxed max-w-[480px] mx-auto m-0 text-justify">
@@ -43,59 +52,44 @@ bodyClass: bg-[#F9F9F9]
         </p>
     </div>
 
-    <div>
-        <h3 class="text-[14px] font-serif font-normal text-gray-900 uppercase tracking-[2px] m-0 mb-4 text-center"
-            style="font-family: &quot;Playfair Display&quot;, Georgia, serif">
+    <!-- SPECIFICATIONS SECTION -->
+    <div class="px-4 py-8">
+        <h3 class="text-[14px] font-serif font-normal text-gray-900 uppercase tracking-[2px] m-0 mb-8 text-center"
+            style="font-family: 'Playfair Display', Georgia, serif">
             Specifications
         </h3>
-        <div class=" flex px-4 gap-4">
-            <div class="w-[55%] overflow-hidden rounded-md">
-                <img src="https://res.cloudinary.com/dkqo3uz5o/image/upload/v1778178525/erica_pro_downlight.png"
-                    alt="" />
-            </div>
-            <div class="w-[45%] flex flex-col gap-2">
-                <div class="w-full flex flex-col gap-1">
-                    <b class="uppercase text-[14px]">Wattage</b>
-                    <p class="m-0 p-0 text-[12px]">6W - 30W</p>
-                </div>
-                <div class="w-full flex flex-col gap-1">
-                    <b class="uppercase text-[14px]">Lumens</b>
-                    <p class="m-0 p-0 text-[12px]">Up To 2550lm</p>
-                </div>
-                <div class="w-full flex flex-col gap-1">
-                    <b class="uppercase text-[14px]">CCT</b>
-                    <p class="m-0 p-0 text-[12px]">2700K, 3000K, 4000K</p>
-                </div>
-                <div class="w-full flex flex-col gap-1">
-                    <b class="uppercase text-[14px]">CRI</b>
-                    <p class="m-0 p-0 text-[12px]">90</p>
-                </div>
-                <div class="w-full flex flex-col gap-1">
-                    <b class="uppercase text-[14px]">Beam Angle</b>
-                    <p class="m-0 p-0 text-[12px]">15&deg; / 24&deg; / 36&deg;</p>
-                </div>
-                <div class="w-full flex flex-col gap-1">
-                    <b class="uppercase text-[14px]">IP Rating</b>
-                    <p class="m-0 p-0 text-[12px]">IP20</p>
-                </div>
-                <div class="w-full flex flex-col gap-1">
-                    <b class="uppercase text-[14px]">Direction</b>
-                    <p class="m-0 p-0 text-[12px]">Adjustable Beam</p>
-                </div>
-                <div class="w-full flex flex-col gap-1">
-                    <b class="uppercase text-[14px]">Finishes</b>
-                    <p class="m-0 p-0 text-[12px]">Black Chrome, Matte Black, Matte White, Gold, Satin Silver
-                    </p>
-                </div>
-            </div>
-        </div>
+        
+        <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+                <!-- PRODUCT IMAGE -->
+                <td class="w-[50%] align-top pr-4">
+                    <div class="overflow-hidden rounded-md bg-white">
+                        <img src="https://res.cloudinary.com/dkqo3uz5o/image/upload/v1778178525/erica_pro_downlight.png"
+                            alt="ERICA PRO" class="w-full h-auto block" />
+                    </div>
+                </td>
+                <!-- SPECS LIST -->
+                <td class="w-[50%] align-top pl-4">
+                    <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr><td class="pb-3"><b class="uppercase text-[12px] tracking-wider text-gray-900">Wattage</b><p class="m-0 text-[12px] text-gray-600">6W - 30W</p></td></tr>
+                        <tr><td class="pb-3"><b class="uppercase text-[12px] tracking-wider text-gray-900">Lumens</b><p class="m-0 text-[12px] text-gray-600">Up To 2550lm</p></td></tr>
+                        <tr><td class="pb-3"><b class="uppercase text-[12px] tracking-wider text-gray-900">CCT</b><p class="m-0 text-[12px] text-gray-600">2700K, 3000K, 4000K</p></td></tr>
+                        <tr><td class="pb-3"><b class="uppercase text-[12px] tracking-wider text-gray-900">CRI</b><p class="m-0 text-[12px] text-gray-600">90</p></td></tr>
+                        <tr><td class="pb-3"><b class="uppercase text-[12px] tracking-wider text-gray-900">Beam Angle</b><p class="m-0 text-[12px] text-gray-600">15&deg; / 24&deg; / 36&deg;</p></td></tr>
+                        <tr><td class="pb-3"><b class="uppercase text-[12px] tracking-wider text-gray-900">IP Rating</b><p class="m-0 text-[12px] text-gray-600">IP20</p></td></tr>
+                        <tr><td class="pb-3"><b class="uppercase text-[12px] tracking-wider text-gray-900">Direction</b><p class="m-0 text-[12px] text-gray-600">Adjustable Beam</p></td></tr>
+                        <tr><td><b class="uppercase text-[12px] tracking-wider text-gray-900">Finishes</b><p class="m-0 text-[12px] text-gray-600">Black Chrome, Matte Black, Matte White, Gold, Satin Silver</p></td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
     </div>
 
-    <table>
-        <!-- LIFESTYLE / APPLICATION GRID -->
+    <!-- LIFESTYLE / APPLICATION GRID -->
+    <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
         <tr>
-            <td class="px-8 py-8 bg-white border-t border-gray-100 text-center">
-                <h3 class="text-[14px] font-serif font-normal text-gray-900 uppercase tracking-[2px] m-0 mb-6"
+            <td class="px-8 py-12 bg-white border-t border-gray-100 text-center">
+                <h3 class="text-[14px] font-serif font-normal text-gray-900 uppercase tracking-[2px] m-0 mb-8"
                     style="font-family: 'Playfair Display', Georgia, serif;">Built For</h3>
 
                 <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
@@ -117,15 +111,14 @@ bodyClass: bg-[#F9F9F9]
                         </td>
                     </tr>
                 </table>
-                <p class="text-[11px] text-gray-500 italic mt-4 m-0">Also ideal for architectural interiors &amp;
-                    hospitality spaces.</p>
+                <p class="text-[11px] text-gray-500 italic mt-6 m-0">Also ideal for architectural interiors &amp; hospitality spaces.</p>
             </td>
         </tr>
 
         <!-- CTA -->
         <tr>
-            <td class="px-8 py-8 bg-gray-50 text-center border-t border-gray-100">
-                <p class="text-[14px] font-serif italic text-gray-600 mb-6 m-0"
+            <td class="px-8 py-12 bg-gray-50 text-center border-t border-gray-100">
+                <p class="text-[14px] font-serif italic text-gray-600 mb-8 m-0"
                     style="font-family: 'Playfair Display', Georgia, serif;">
                     "Precision lighting is not just about brightness. It's about control."
                 </p>
@@ -142,26 +135,25 @@ bodyClass: bg-[#F9F9F9]
                 <p class="text-[20px] font-serif tracking-[6px] text-white uppercase m-0 mb-4"
                     style="font-family: 'Playfair Display', Georgia, serif;">T R I X</p>
                 <p class="text-[9px] text-gray-400 mb-2 m-0 tracking-[2px] uppercase">Architectural Lighting</p>
-                <p class="text-[11px] text-gray-300 mb-6 m-0">sales@trix.co.in &bull; +91 9779511007</p>
+                <p class="text-[11px] text-gray-300 mb-8 m-0">sales@trix.co.in &bull; +91 9779511007</p>
 
-                <table align="center" class="mb-8" cellpadding="0" cellspacing="0" role="presentation">
+                <table align="center" class="mb-10" cellpadding="0" cellspacing="0" role="presentation">
                     <tr>
-                        <td class="px-3 border-r border-gray-700"><a href="#"
-                                class="text-white text-[9px] uppercase tracking-[1px] font-bold no-underline hover:text-[#D4AF37]">Instagram</a>
+                        <td class="px-4 border-r border-gray-700">
+                            <a href="#" class="text-white text-[9px] uppercase tracking-[1px] font-bold no-underline hover:text-[#D4AF37]">Instagram</a>
                         </td>
-                        <td class="px-3 border-r border-gray-700"><a href="#"
-                                class="text-white text-[9px] uppercase tracking-[1px] font-bold no-underline hover:text-[#D4AF37]">LinkedIn</a>
+                        <td class="px-4 border-r border-gray-700">
+                            <a href="#" class="text-white text-[9px] uppercase tracking-[1px] font-bold no-underline hover:text-[#D4AF37]">LinkedIn</a>
                         </td>
-                        <td class="px-3"><a href="#"
-                                class="text-white text-[9px] uppercase tracking-[1px] font-bold no-underline hover:text-[#D4AF37]">Website</a>
+                        <td class="px-4">
+                            <a href="#" class="text-white text-[9px] uppercase tracking-[1px] font-bold no-underline hover:text-[#D4AF37]">Website</a>
                         </td>
                     </tr>
                 </table>
 
-                <div class="w-[40px] h-[1px] bg-gray-700 mx-auto mb-6"></div>
+                <div class="w-[40px] h-[1px] bg-gray-700 mx-auto mb-8"></div>
                 <p class="text-[9px] text-gray-500 m-0 uppercase tracking-[1px]">Focus Lighting &amp; Fixtures Ltd.</p>
-                <p class="text-[9px] text-gray-500 m-0 mt-2 uppercase tracking-[1px]">&copy; 2026 TRIX. ALL RIGHTS
-                    RESERVED.</p>
+                <p class="text-[9px] text-gray-500 m-0 mt-2 uppercase tracking-[1px]">&copy; 2026 TRIX. ALL RIGHTS RESERVED.</p>
             </td>
         </tr>
     </table>
