@@ -2,3 +2,7 @@
 .vscode
 node_modules
 .vercel
+*.png
+*.jpg
+*.jpeg
+deploy.log
